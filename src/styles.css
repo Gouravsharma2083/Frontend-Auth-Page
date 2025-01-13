@@ -1,0 +1,102 @@
+/* Container styles */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light background color */
+}
+
+/* Left panel styles */
+.left-panel {
+  flex: 1;
+  background-color: #17A2B8; /* Teal background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* White text color */
+  padding: 20px;
+}
+
+.left-panel p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+/* Right panel styles */
+.right-panel {
+  flex: 1;
+  background-color: #FFFFFF; /* White background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.astronaut-image img {
+  width: 100%;
+  height: 400;
+  
+  display: block;
+  margin: 0;
+}
+
+/* Form styles */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #19b9d2;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Specific button styles */
+.register-button {
+  background-color: #17A2B8; /* Teal background */
+  color: white; /* White text */
+}
+
+.login-button {
+  background-color: white; /* White background */
+  color: #17A2B8; /* Teal text */
+  border: 2px solid #00aabb; /* Teal border */
+}
+
+/* Text styles */
+.have-account-text {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}

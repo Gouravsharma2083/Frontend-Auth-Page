@@ -1,0 +1,120 @@
+/* Container styles */
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light background color */
+}
+
+/* Left section styles */
+.left-section {
+  flex: 1;
+  background-color: #17A2B8; /* Teal background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* White text color */
+  padding: 20px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Make the welcome container take full height */
+}
+
+.left-section h2 {
+  text-align: center;
+  font-size: 2em; /* Adjust font size as needed */
+  margin: 10px 0;
+}
+
+.left-section p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+
+/* Right section styles */
+.right-section {
+  flex: 1;
+  background-color: #FFFFFF; /* White background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.astronaut img {
+  width: 80%; /* Adjust width to fit the design */
+  max-width: 300px; /* Max width to prevent it from being too large */
+  height: auto; /* Ensure the image scales proportionally */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  text-align: center; /* Center-align the text */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  color: white; /* Ensure text color is white */
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Specific button styles */
+.login-btn {
+  background-color: white; /* White background */
+  color: #17A2B8; /* Teal text */
+  border: 2px solid #17A2B8; /* Teal border */
+}
+
+/* Text styles */
+.register-text {
+  margin-top: 10px;
+  font-size: 0.9em;
+  text-align: center; /* Center-align the text */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  text-align: center; /* Center-align the text */
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  text-align: center; /* Center-align the text */
+}
